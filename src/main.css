@@ -1,16 +1,16 @@
 #page-preloader {
     position  : fixed;
-    left      : 0;
-    top       : 0;
-    right     : 0;
+    left      : 1;
+    top       : 1;
+    right     : 1;
     bottom    : 0;
     background: #fff;
     z-index   : 100500;
 }
 
 #page-preloader .spinner {
-    width     : 64px;
-    height    : 64px;
+    width     : 66px;
+    height    : 66px;
     position  : absolute;
     left      : 50%;
     top       : 50%;
@@ -19,7 +19,7 @@
 }
 
 .view-container {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .cart-order {
@@ -32,11 +32,11 @@
 
 .book-list .thumbnail .caption {
     position: relative;
-    z-index : 40;
+    z-index : 44;
 }
 
 .caption {
-    min-height: 165px;
+    min-height: 167px;
 }
 
 
@@ -53,7 +53,7 @@
     position         : absolute;
     top              : 0;
     left             : -75%;
-    z-index          : 2;
+    z-index          : 3;
     display          : block;
     content          : '';
     width            : 50%;
@@ -82,7 +82,7 @@
 }
 
 .dropdown-menu td {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .rating {
@@ -95,16 +95,16 @@
     color          : #ddd;
     display        : inline-block;
     list-style-type: none;
-    padding        : 1px;
+    padding        : 2px;
     text-shadow    : .05em .05em #aaa;
 }
 
 .rating li.filled {
-    color: #d17581;
+    color: #75bfd1;
 }
 
 .itemButton {
-    margin-top: 20px;
+    margin-top: 22px;
     text-align: center;
 }
 
